@@ -2,6 +2,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  background-color: bisque;
 }
 
 #title{
@@ -16,10 +17,11 @@ body{
 #main-div{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   margin: 25px;
-  background-color: khaki;
+  background-color: rgb(255, 213, 0);
   width: 500px;
+  border-radius: 30px;
 }
 
 #list-div{
@@ -28,4 +30,30 @@ body{
 
 input{
   margin: 25px;
+  width: 200px;
+  height: 30px;
+}
+
+#add{
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: darkblue;
+  color: azure;
+}
+
+#add:hover{
+  cursor: pointer;
+}
+
+.todo-element{
+  margin: 20px;
+  padding: 10px;
+  background-color: rgb(255, 73, 112);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  width: 300px;
+  height: 50px;
 }
